@@ -96,7 +96,7 @@ const ChatbotWidget: React.FC = () => {
     setIsTyping(true);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+      const ai = new GoogleGenAI({ apiKey: AIzaSyD0PkvNWiO7M1uPDjK2_T-yw8exJA_rnYo });
       const response = await ai.models.generateContent({
         model: 'gemini-3-flash-preview',
         contents: textToSend,
