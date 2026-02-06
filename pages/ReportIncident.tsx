@@ -147,7 +147,7 @@ const ReportIncident: React.FC = () => {
   const verifyWithAI = async (base64: string) => {
     setIsVerifying(true);
     try {
-      const ai = new GoogleGenAI({ apiKey: "AIzaSyD0PkvNWiO7M1uPDjK2_T-yw8exJA_rnYo" });
+      const ai = new GoogleGenAI({ apiKey: "AIzaSyC7F0evakLJGFmBhJji4ERJM231zgoxgOA" });
       const response = await ai.models.generateContent({
         model: 'gemini-3-flash-preview',
         contents: { parts: [{ inlineData: { mimeType: 'image/jpeg', data: base64.split(',')[1] } }, { text: "Analyze emergency hazard. Decision: [Verified/Suspicious] | Reason: [One sentence]" }] }
