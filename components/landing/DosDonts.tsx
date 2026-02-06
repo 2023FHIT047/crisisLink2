@@ -133,7 +133,7 @@ const DosDonts: React.FC = () => {
     },
     {
         title: t("Earthquake", "भूकंप"),
-        image: "https://images.unsplash.com/photo-1531260796528-cdb01c4412a4?auto=format&fit=crop&q=80&w=800",
+        image: "https://wallpaperaccess.com/full/2142495.jpg",
         dos: [
           t("Drop, Cover, and Hold On immediately under a sturdy piece of furniture.", "किसी मजबूत फर्नीचर के नीचे तुरंत झुकें, ढकें और पकड़ें।"),
           t("Stay away from glass windows and hanging objects.", "कांच की खिड़कियों और लटकती वस्तुओं से दूर रहें।"),
